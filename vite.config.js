@@ -5,6 +5,7 @@ import path from "path"
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base:"./",
   // 配置别名
   resolve: {
     alias: {
